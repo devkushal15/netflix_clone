@@ -1,0 +1,1259 @@
+@import url('https://fonts.cdnfonts.com/css/netflix-font');
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+.main {
+    background: url(./img/netflixbackground.jpg);
+
+    height: 100vh;
+    width: 100%;
+
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+border-bottom: 7px solid #454545;
+}
+
+.main .box {
+
+    opacity: 0.67;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav span {
+    z-index: 6;
+}
+
+nav span img {
+    width: 25%;
+    filter: brightness(200%);
+    margin-left: 3REM;
+    margin-top: 2rem;
+}
+
+
+.nav_btn {
+    display: flex;
+
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.nav_btn button:nth-child(1) {
+    border: none;
+    font-size: 1.2rem;
+    background-color: rgba(0, 0, 0, 0.744);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(189, 189, 189);
+    width: 13vw;
+    font-weight:200;
+    border-radius: 5px;
+    padding:0.3rem;
+}
+
+.svg_first{
+    
+    padding-right: 0.5rem;
+}
+
+.nav_btn button:nth-child(2) {
+
+    border: none;
+    font-size: 1.2rem;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    border: 1px solid red;
+    width: 8vw;
+    padding: 0.4rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+/* =================================================================================================================================================================================================================================================================================================================== */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
+    nav span img {
+        width:30vw;
+        filter: brightness(200%);
+        margin-left: 2REM;
+        margin-top: 2rem;
+    }
+
+
+
+    .nav_btn {
+        display: flex;
+    
+        width:50%;
+        justify-content:center;
+        align-items:center;
+        cursor: pointer;
+        z-index: 5;
+        
+        
+margin-top: 1.5rem;
+    }
+
+
+
+    .nav_btn button:nth-child(1) {
+        border: none;
+        font-size:0rem;
+        background-color: rgba(0, 0, 0, 0.229);
+        color: rgb(255, 255, 255);
+        border: 1px solid rgb(189, 189, 189);
+        width: 30%;
+        font-weight:200;
+        border-radius: 5px;
+        padding:0.5rem;
+        display: flex;
+        margin-right: 0.5rem;
+        
+    }
+
+
+    .nav_btn button:nth-child(2) {
+
+        border: none;
+        font-size:0.9rem;
+        background-color: rgb(207, 4, 4);
+        color: rgb(255, 255, 255);
+    
+        width:auto;
+        padding: 0.7rem;
+        border-radius: 5px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .main {
+        background: url(./img/netflixbackground.jpg);
+    
+        height: 85vh;
+        width: 100%;
+    
+        position: relative;
+        background-position: center center;
+        background-repeat: no-repeat;
+    border-bottom: 7px solid #454545;
+    }
+    
+    .main .box {
+    
+        opacity: 0.67;
+        height: 85vh;
+        width: 100%;
+        background-color: black;
+        position: absolute;
+        top: 0;
+    }
+
+
+
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen  and (min-width: 600px) and (max-width: 938px) {
+
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
+
+    nav span img{
+        width:16vw;
+    }
+
+.nav_btn{
+    
+
+    display: flex;
+    
+    width:50%;
+    justify-content:center;
+    align-items:center;
+    cursor: pointer;
+    z-index: 5;
+margin-top: 1.5rem;
+
+}
+
+
+
+
+.nav_btn button:nth-child(1) {
+    border: none;
+    font-size:1rem;
+    background-color: rgba(0, 0, 0, 0.229);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(189, 189, 189);
+    max-width: 20vw;
+    font-weight:200;
+    border-radius: 5px;
+    padding:0.3rem;
+    display: flex;
+    margin-right: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.nav_btn button:nth-child(2) {
+
+    border: none;
+    font-size:0.9rem;
+    background-color: rgb(207, 4, 4);
+    color: rgb(255, 255, 255);
+
+    width:auto;
+    padding: 0.7rem;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.main {
+    background: url(./img/netflixbackground.jpg);
+
+    height: 85vh;
+    width: 100%;
+
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+border-bottom: 7px solid #454545;
+}
+
+.main .box {
+
+    opacity: 0.67;
+    height: 85vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+
+
+}
+
+
+
+/* ============================================================================================================================================================================================================== */
+
+
+/* hero section start */
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    position: relative;
+
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+
+}
+
+.hero span:nth-child(1) {
+    font-size: 3rem;
+    font-family: 'Netflix Font', sans-serif;
+    font-weight: bolder;
+
+}
+
+.hero span:nth-child(2) {
+
+    font-size: 3.3rem;
+
+    font-family: 'Netflix Font', sans-serif;
+    font-weight: bolder;
+
+}
+
+
+.hero span:nth-child(3) {
+
+    font-size: 1.6rem;
+    font-family: 'Netflix Font', sans-serif;
+    margin-top: 1.6rem;
+}
+
+.hero span:nth-child(4) {
+
+    font-size: 1.2rem;
+    font-family: 'Netflix Font', sans-serif;
+    margin-top: 2rem;
+}
+
+.hero_contact {
+
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1.5rem;
+    width: 60vw;
+}
+
+.hero_contact input {
+    padding-left: 1rem;
+    width: 36vw;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.626);
+    height: 8.5vh;
+    border-radius: 5px;
+    border: 1px solid rgb(142, 141, 141);
+    caret-color:white;
+    color:white;
+}
+
+.hero_contact input::placeholder {
+    color: white;
+
+    font-size: 1rem;
+
+    text-align: left;
+}
+
+.hero_contact input:focus {
+
+    outline: 2px solid white;
+
+}
+
+
+.hero_contact button {
+
+    width: 20vw;
+    border: none;
+    font-size: 1.5rem;
+    background-color: red;
+    color: white;
+    height: 9vh;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.hero_contact button:hover {
+    background-color: rgb(186, 4, 4);
+}
+
+
+/* ============================================================================================================================================================================================================= */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+
+    .hero span:nth-child(1) {
+        font-size: 2.1rem;
+        font-family: 'Netflix Font', sans-serif;
+        font-weight: bolder;
+        text-align: center;
+    padding: 0px 1.5rem;
+    line-height: 2.8rem;
+    
+    }
+
+    .hero span:nth-child(2) {
+
+        font-size: 2.1rem;
+    
+        font-family: 'Netflix Font', sans-serif;
+        font-weight: bolder;
+        padding: 0px 1.5rem;
+    }
+
+
+    .hero span:nth-child(3) {
+
+        font-size: 1.3rem;
+        font-family: 'Netflix Font', sans-serif;
+        margin-top: 1.6rem;
+    }
+    
+
+
+    .hero span:nth-child(4) {
+
+        font-size: 1.3rem;
+        font-family: 'Netflix Font', sans-serif;
+        margin-top: 2rem;
+        padding: 0px 2.2rem;
+        text-align: center;
+        line-height: 2rem;
+    }
+
+    .hero_contact {
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1.5rem;
+        width:100%;
+    }
+  
+
+    .hero_contact input {
+        padding-left: 2rem;
+        min-width:60vw;
+        border: none;
+        background-color: rgba(0, 0, 0, 0.626);
+        height:0.5vh;
+        border-radius: 5px;
+        border: 1px solid red;
+        caret-color:white;
+        color:white;
+        
+    }
+
+
+
+    .hero_contact button {
+
+        min-width: 50vw;
+        border: none;
+        font-size: 1rem;
+        background-color: red;
+        color: white;
+        height: 7vh;
+        border-radius: 6px;
+        cursor: pointer;
+        margin-top: 1rem;
+    }
+
+
+}
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen  and (min-width: 600px) and (max-width: 938px) {
+
+
+    .hero span:nth-child(1) {
+        font-size: 2.5rem;
+        font-family: 'Netflix Font', sans-serif;
+        font-weight: bolder;
+        text-align: center;
+    padding: 0px 1.5rem;
+    line-height: 4rem;
+    }
+
+    .hero span:nth-child(2) {
+
+        font-size: 2.1rem;
+    
+        font-family: 'Netflix Font', sans-serif;
+        font-weight: bolder;
+        padding: 0px 1.5rem;
+    }
+
+
+    .hero span:nth-child(3) {
+
+        font-size: 1.3rem;
+        font-family: 'Netflix Font', sans-serif;
+        margin-top: 1.6rem;
+    }
+    
+
+
+    .hero span:nth-child(4) {
+
+        font-size: 1.3rem;
+        font-family: 'Netflix Font', sans-serif;
+        margin-top: 2rem;
+        padding: 0px 2.2rem;
+        text-align: center;
+        line-height: 2rem;
+    }
+
+
+    .hero_contact button {
+
+        min-width: 30vw;
+        border: none;
+        font-size: 1rem;
+        background-color: red;
+        color: white;
+        height: 7vh;
+        border-radius: 6px;
+        cursor: pointer;
+        margin-top: 1rem;
+        margin-right: 0.3rem;
+    }
+
+
+    .hero_contact input {
+        padding-left: 1rem;
+        min-width:60vw;
+        border: none;
+        background-color: rgba(0, 0, 0, 0.626);
+        height:0.5vh;
+        border-radius: 5px;
+        border: 1px solid red;
+        caret-color:white;
+        color:white;
+        margin-top: 1.2rem;
+        margin-left: 1rem;
+    }
+
+
+    .hero_contact {
+
+
+        display: flex;
+        
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 1.5rem;
+        width:100%;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+/* =================================================================================================================================================================================================================================================================================================================== */
+
+
+.first{
+    background-color: black;
+    color:white;
+    display: flex;
+justify-content:center;
+align-items: center;
+padding-left:3rem;
+height:70vh;
+border-bottom: 7px solid #454545;
+}
+
+
+.first_image{
+
+    position: relative;
+}
+
+.first_image img{
+    width:480px;
+    
+}
+
+
+.first_image video{
+position:absolute;
+left: 4rem;
+  width:350px;
+  top: 4.7rem;
+  
+
+}
+
+.first_hading>span{
+    font-size: 3rem;
+    font-family: 'Netflix Font', sans-serif;
+    font-weight: bolder;
+}
+
+.first_hading p{
+    font-size: 1.5rem;
+    margin: 1rem 0 0;
+    text-align: left;
+    font-family: 'Netflix Font', sans-serif;
+    color:rgb(255,255,255);
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .first{
+        background-color: black;
+        color:white;
+        display: flex;
+        flex-direction: column;
+    justify-content:center;
+    align-items:center;
+
+    height:70vh;
+    border-bottom: 7px solid #454545;
+    }
+    
+
+    .first_hading{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+
+
+    .first_hading>span{
+        font-size: 2rem;
+        font-family: 'Netflix Font', sans-serif;
+        font-weight: bolder;
+        text-align: center;
+        
+    
+    }
+
+    .first_hading p{
+        font-size: 1.1rem;
+        margin: 1rem  0;
+        
+        font-family: 'Netflix Font', sans-serif;
+        color:rgb(255,255,255);
+        text-align:center;
+    margin-right: 2rem;
+        line-height: 1.5rem;
+        
+    }
+
+
+    
+.first_image img{
+    width:350px;
+    margin-right:2rem;
+    
+    
+}
+
+
+.first_image video{
+    position:absolute;
+    left: 3rem;
+      width:250px;
+      top: 3.4rem;
+      
+    
+    }
+
+
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen  and (min-width: 600px) and (max-width: 938px){
+
+
+
+.first_image img{
+    width:500px;
+    margin-right:2rem;
+    
+    
+}
+
+.first_image video{
+    position:absolute;
+    left:68px;
+      width:360px;
+      top:80px;
+      
+    
+    }
+
+        .first{
+        background-color: black;
+        color:white;
+        display: flex;
+        flex-direction: column;
+    justify-content:center;
+    align-items:center;
+
+    height:70vh;
+    border-bottom: 7px solid #454545;
+    }
+
+
+    .first_hading{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 3.5rem;
+    }
+
+
+    .first_hading>span{
+        font-size: 1.9rem;
+        font-family: 'Netflix Font', sans-serif;
+        font-weight: bolder;
+        text-align: center;
+        
+    
+    }
+
+
+    
+    .first_hading p{
+        font-size: 1.1rem;
+        margin: 1rem  0;
+        
+        font-family: 'Netflix Font', sans-serif;
+        color:rgb(255,255,255);
+        text-align:center;
+    margin-right: 2rem;
+        line-height: 1.5rem;
+        
+    }
+
+
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+
+    .first_image img{
+        width:550px;
+        margin-right:2rem;
+        
+        
+    }
+    
+    .first_image video{
+        position:absolute;
+        left:73px;
+          width:400px;
+          top:86px;
+          
+        
+        }
+
+
+
+
+}
+
+
+
+
+/* =========================================================================================================================================================================================================================================================================================================================================================================================================================== */
+
+
+.stranger_things{
+    display: flex;
+    flex-direction:row-reverse;
+}
+
+.strnger_things_image{
+
+    padding-left:1rem;
+    position: relative;
+}
+
+
+.stranger_things_box{
+    display: flex;
+    border:2px solid rgba(128,128,128,0.7);
+    justify-content: space-around;
+    align-items: center;
+    width:300px;
+    height:90px;
+    position: absolute;
+    bottom: 40px;
+    background-color: black;
+    border-radius:0.75rem;
+    box-shadow: 0 0 2em 0 rgb(0,0,0);
+    left:100px;
+}
+
+.stranger_things_box img{
+    height: 4.5rem;
+    width:50px;
+}
+
+.stranger_things_box .box_hading{
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+}
+
+.downlodong{
+    font-size: 0.875rem;
+    font-weight: 400;
+  color: #0071eb;
+  text-align: left;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px){
+
+
+    .stranger_things{
+        display: flex;
+        flex-direction:row-reverse;
+        flex-direction: column;
+    }
+
+
+    
+.stranger_things_box{
+    display: flex;
+    border:2px solid rgba(128,128,128,0.7);
+    justify-content: space-around;
+    align-items: center;
+    width:270px;
+    height:70px;
+    position: absolute;
+    bottom: 40px;
+    background-color: black;
+    border-radius:0.75rem;
+    box-shadow: 0 0 2em 0 rgb(0,0,0);
+    left:50px;
+}
+
+
+.stranger_things_box img{
+    height:55px;
+    width:40px;
+}
+
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen  and (min-width: 600px) and (max-width: 938px){
+
+    .stranger_things{
+        display: flex;
+        flex-direction:row-reverse;
+        flex-direction: column;
+    }
+
+
+    .stranger_things_box{
+        display: flex;
+        border:2px solid rgba(128,128,128,0.7);
+        justify-content: space-around;
+        align-items: center;
+        width:300px;
+        height:90px;
+        position: absolute;
+        bottom: 40px;
+        background-color: black;
+        border-radius:0.75rem;
+        box-shadow: 0 0 2em 0 rgb(0,0,0);
+        left:110px;
+    }
+
+
+
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px){
+
+
+    
+    .stranger_things_box{
+        display: flex;
+        border:2px solid rgba(128,128,128,0.7);
+        justify-content: space-around;
+        align-items: center;
+        width:320px;
+        height:100px;
+        position: absolute;
+        bottom: 40px;
+        background-color: black;
+        border-radius:0.75rem;
+        box-shadow: 0 0 2em 0 rgb(0,0,0);
+        left:120px;
+    }
+
+
+}
+
+
+
+
+
+/* ========================================================================================================================================================================================================================================================================================================================================================================================================================== */
+
+
+.i_image{
+    overflow-clip-margin: content-box;
+    z-index: 500;
+    position: relative;
+}
+
+
+
+.i_tv .i_video{
+
+    position: absolute;
+    width:300px;
+    top:30px;
+    left:95px;
+    object-fit: contain;
+    z-index: 5;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px){
+
+    .i_tv .i_video{
+
+        position: absolute;
+        width:220px;
+        top:30px;
+        left:70px;
+        object-fit: contain;
+        z-index: 5;
+    }
+
+
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px){
+
+    .i_tv .i_video{
+
+        position: absolute;
+        width:350px;
+        top:30px;
+        left:90px;
+        object-fit: contain;
+        z-index: 5;
+    }
+}
+
+
+/* =========================================================================================================================================================================================================================================================================================================================================================================================================================== */
+
+
+.faq_page{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 50vh;
+    border-bottom: 7px solid #454545;
+}
+
+.faq_hading{
+    color:white;
+    font-size: 3rem;
+    text-align: center;
+    font-family:'Netflix Font', sans-serif;
+    font-weight: bolder;
+    padding-top:6rem;
+    padding-bottom:0.5rem;
+}
+
+.faq_box{
+    display: flex;
+    background-color:rgb(46, 45, 45);
+    width: 93%;
+    height: 13vh;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.faq_box:hover{
+    background-color:rgb(68, 68, 68);
+}
+
+.faq_quation{
+
+    font-size:1.6rem;
+    padding-left: 2rem;
+    color:white;
+    font-family:'Netflix Font', sans-serif;
+}
+
+.bi-plus-lg{
+    color: white;
+    font-size: 3rem;
+    padding-right: 1.5rem;
+    font-weight:inherit;
+}
+
+.faq_last{
+    font-size: 1.2rem;
+    font-family: 'Netflix Font', sans-serif;
+    margin-top:4rem;
+    color:white;
+}
+
+
+.hero_contact{
+
+    padding-bottom: 4rem;
+}
+
+
+.hero_contact input {
+    padding-left: 1rem;
+    width: 36vw;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.626);
+    height: 8.5vh;
+    border-radius: 5px;
+    border: 1px solid rgb(142, 141, 141);
+    caret-color:white;
+    color:white;
+}
+
+.hero_contact input::placeholder {
+    color: white;
+
+    font-size: 1rem;
+
+    text-align: left;
+}
+
+.hero_contact input:focus {
+
+    outline: 2px solid white;
+
+}
+
+.hero_contact button {
+
+    width: 20vw;
+    border: none;
+    font-size: 1.5rem;
+    background-color: red;
+    color: white;
+    height: 9vh;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.hero_contact button:hover {
+    background-color: rgb(186, 4, 4);
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px){
+
+
+    .faq_hading{
+        color:white;
+        font-size: 2rem;
+        text-align: center;
+        font-family:'Netflix Font', sans-serif;
+        font-weight: bolder;
+        padding-top:6rem;
+        padding-bottom:0.5rem;
+    }
+
+
+    
+.faq_quation{
+
+    font-size:1.3rem;
+    padding-left: 2rem;
+    color:white;
+    font-family:'Netflix Font', sans-serif;
+}
+
+
+.faq_box{
+    display: flex;
+    background-color:rgb(46, 45, 45);
+    width:89%;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.bi-plus-lg{
+    color: white;
+    font-size: 1.7rem;
+    padding-right: 1.5rem;
+    font-weight:inherit;
+}
+
+.faq_last{
+    text-align: center;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================================================================================================================================================================================================================================================================================================================================================================================================================== */
+
+footer{
+    background-color: black;
+    color:rgba(255,255,255,0.7);
+    display: flex;
+    flex-direction: column;
+}
+
+footer>p{
+
+    padding-top: 3rem;
+    padding-left: 3rem;
+}
+
+.link_box{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding-top: 2rem;
+}
+
+.link_box ul{
+    list-style: none;
+    line-height:2rem;
+    color:rgba(255,255,255,0.7);
+    font-family: 'Netflix Font', sans-serif;
+}
+
+
+.footer_btn{
+
+    border: none;
+    font-size: 1.2rem;
+    background-color: rgba(0, 0, 0, 0.229);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(189, 189, 189);
+    width: 13vw;
+    font-weight:200;
+    border-radius: 5px;
+    padding:0.3rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-family: 'Netflix Font', sans-serif;
+}
+
+.footer_last_para{
+    padding-bottom: 3rem;
+    padding-top: 1.7rem;
+    padding-left: 3rem;
+    font-family: 'Netflix Font', sans-serif;
+}
+
+.bi-caret-down-fill{
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px){
+
+    .link_box{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: black;
+        padding-top: 2rem;
+        padding-left: 2rem;
+        grid-template-rows: 1fr;
+    }
+
+    .footer_btn {
+
+        border: none;
+        font-size:0.9rem;
+        background-color: rgb(54, 53, 53);
+        color: rgb(255, 255, 255);
+    
+        width:auto;
+        padding: 0.7rem;
+        border-radius: 5px;
+        cursor: pointer;
+        display: flex;
+        justify-content:flex-start;
+    }
+
+}
