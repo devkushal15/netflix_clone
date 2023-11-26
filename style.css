@@ -162,7 +162,7 @@ margin-top: 1.5rem;
     .main {
         background: url(./img/netflixbackground.jpg);
     
-        height: 85vh;
+        height: 90vh;
         width: 100%;
     
         position: relative;
@@ -174,7 +174,7 @@ margin-top: 1.5rem;
     .main .box {
     
         opacity: 0.67;
-        height: 85vh;
+        height: 90vh;
         width: 100%;
         background-color: black;
         position: absolute;
@@ -185,6 +185,14 @@ margin-top: 1.5rem;
 
 
 }
+
+
+
+
+
+
+
+
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
