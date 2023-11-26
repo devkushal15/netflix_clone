@@ -6,6 +6,7 @@
 * {
     margin: 0px;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .main {
@@ -18,6 +19,7 @@
     background-position: center center;
     background-repeat: no-repeat;
 border-bottom: 7px solid #454545;
+
 }
 
 .main .box {
@@ -402,6 +404,8 @@ border-bottom: 7px solid #454545;
 
 
 
+
+
     .hero span:nth-child(1) {
         font-size: 2.1rem;
         font-family: 'Netflix Font', sans-serif;
@@ -648,16 +652,19 @@ left: 4rem;
 
     height:70vh;
     border-bottom: 7px solid #454545;
+    
+    width: 100%;
     }
     
 
     .first_hading{
         
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content:flex-start;
+        align-items:flex-start;
         flex-direction: column;
         margin-top: 2rem;
+    
     }
 
 
@@ -665,7 +672,7 @@ left: 4rem;
         font-size: 2rem;
         font-family: 'Netflix Font', sans-serif;
         font-weight: bolder;
-        text-align: center;
+        text-align:start;
         
     
     }
@@ -676,8 +683,8 @@ left: 4rem;
         
         font-family: 'Netflix Font', sans-serif;
         color:rgb(255,255,255);
-        text-align:center;
-    margin-right: 2rem;
+        text-align:start;
+    padding-right: 1.5rem;
         line-height: 1.5rem;
         
     }
@@ -698,6 +705,7 @@ left: 4rem;
       width:250px;
       top: 3.4rem;
       
+      margin-bottom: 2rem;
     
     }
 
