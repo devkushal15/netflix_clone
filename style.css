@@ -663,7 +663,7 @@ left: 4rem;
         justify-content:flex-start;
         align-items:flex-start;
         flex-direction: column;
-        margin-top: 2rem;
+        padding: 3.5rem 0px;
     
     }
 
@@ -694,7 +694,7 @@ left: 4rem;
 .first_image img{
     width:350px;
     margin-right:2rem;
-    
+
     
 }
 
@@ -883,7 +883,7 @@ left: 4rem;
     width:270px;
     height:70px;
     position: absolute;
-    bottom: 40px;
+    bottom: 30px;
     background-color: black;
     border-radius:0.75rem;
     box-shadow: 0 0 2em 0 rgb(0,0,0);
@@ -894,6 +894,11 @@ left: 4rem;
 .stranger_things_box img{
     height:55px;
     width:40px;
+}
+
+.stranger_things_part{
+    font-size: 0.9rem;
+    
 }
 
 
